@@ -1,5 +1,6 @@
 
 import React from "react";
+<<<<<<< HEAD
 import './About.css';
 function About() {
   return (
@@ -19,10 +20,23 @@ function About() {
       <p className="about-text">
         My curiosity and <strong>tech-savvy nature</strong> drive me to innovate, 
         solve problems, and create impactful digital experiences.
+=======
+
+function About() {
+  return (
+    <section id="about" style={{ padding: "50px", backgroundColor: "#f4f4f4" }}>
+      <h2>About Me</h2>
+      <p>
+        I am a passionate web developer with experience in React, JavaScript,
+        and modern web technologies. This portfolio is a simple React project.
+>>>>>>> 4fefc02a5ad291523f1fb0d55c41557d2649bf89
       </p>
     </section>
   );
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4fefc02a5ad291523f1fb0d55c41557d2649bf89
 export default About;

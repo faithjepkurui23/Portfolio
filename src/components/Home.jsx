@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 import "./Home.css";
 
 function Home() {
@@ -21,6 +22,14 @@ function Home() {
           <a href="#projects" className="btn btn-alt">View Projects</a>
         </div>
       </div>
+=======
+
+function Home() {
+  return (
+    <section id="home" style={{ padding: "50px", textAlign: "center" }}>
+      <h1>Hello, I'm [Your Name]</h1>
+      <p>Welcome to my portfolio website built with React!</p>
+>>>>>>> 4fefc02a5ad291523f1fb0d55c41557d2649bf89
     </section>
   );
 }

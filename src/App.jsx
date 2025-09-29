@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import './App.css';
 import { Routes, Route } from "react-router-dom";
@@ -6,6 +7,18 @@ import About from "./components/About.jsx";
 import Projects from "./components/Projects.jsx";
 import Contact from "./components/Contact.jsx";
 import Navbar from "./components/Navbar.jsx";
+=======
+import React from 'react';
+
+
+import'./App.css'
+
+
+import Navbar from "./components/Navbar.jsx";
+import Home from "./components/Home.jsx";
+import About from "./components/About.jsx";
+import Contact from "./components/Contact.jsx";
+>>>>>>> 4fefc02a5ad291523f1fb0d55c41557d2649bf89
 
 function App() {
   return (

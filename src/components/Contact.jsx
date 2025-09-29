@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import "./Contact.css";
 import { FaInstagram, FaWhatsapp, FaTiktok, FaFacebook, FaEnvelope } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6"; // X (Twitter)
@@ -33,9 +34,24 @@ function Contact() {
       </div>
 
       <p className="contact-cta">📩 Let’s build something amazing together!</p>
+=======
+
+import React from "react";
+
+function Contact() {
+  return (
+    
+    <section id="contact" style={{ padding: "50px", backgroundColor: "#eee" }}>
+      <h2>Contact Me</h2>
+      <p>Email: yourname@example.com</p>
+      <p>LinkedIn: linkedin.com/in/yourprofile</p>
+>>>>>>> 4fefc02a5ad291523f1fb0d55c41557d2649bf89
     </section>
   );
 }
 
 export default Contact;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4fefc02a5ad291523f1fb0d55c41557d2649bf89
