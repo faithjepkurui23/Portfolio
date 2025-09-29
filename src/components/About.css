@@ -1,0 +1,34 @@
+.about-section {
+  padding: 60px 20px;
+  /* New blend: soft diagonal gradient with accent */
+  background: linear-gradient(to top right, #FDEB9E 40%, #006A67 90%);
+  border-left: 15px solid #000B58; /* bold accent */
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 40px auto;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #000B58; /* deep navy for title */
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.about-text {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #003161; /* dark teal for body text */
+  margin-bottom: 18px;
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-text strong {
+  color: #006A67; /* teal green for emphasis */
+}
